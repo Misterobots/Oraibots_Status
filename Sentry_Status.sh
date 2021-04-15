@@ -11,5 +11,5 @@ then
 	echo "`date` node is synced"
 else
     echo "`date` ALARM! node is out of sync"
-	 "${SCRIPT_DIR}/../Send_msg_toTelBot.sh" "$HOSTNAME inform you:" "ALARM! Orai node is out of sync"  2>&1 > /dev/null
+	 "${SCRIPT_DIR}/../sentry_alert.sh" "$HOSTNAME inform you:" "ALARM! Orai node is out of sync"  2>&1 > /dev/null
 fi
