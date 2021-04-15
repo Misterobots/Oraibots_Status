@@ -1,7 +1,7 @@
 #!/bin/bash
 
-telegram_bot_token="bot_api_token"
-telegram_chat_id="tg_chat_or_user_id"
+telegram_bot_token="1760623485:AAHOO9P4KvR16UpH6cwWaf8263hORr6y4JM"
+telegram_chat_id="@misterobots"
 
 Title="$1"
 Message="$2"
